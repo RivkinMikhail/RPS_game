@@ -39,3 +39,5 @@ To run in a Docker, just build a docker image and run container using the comman
 `docker run --privileged=True --device=/dev/video0:/dev/video0 -it -p 8000:8000 <IMAGE NAME>`
 
 
+## Example result
+![Header](https://github.com/RivkinMikhail/RPS_game/blob/main/assets/test2.mp4)
