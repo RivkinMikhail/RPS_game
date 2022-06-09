@@ -15,5 +15,4 @@ EXPOSE 8000
 
 
 CMD ["uvicorn", "main:app", "--proxy-headers", "--host", "0.0.0.0", "--port", "8000"]
-# docker run -it --name NAME_FOR_CONTAINER -p 8000:8000 IMAGE_ID
-# docker run --privileged=True --device=/dev/video2:/dev/video0 -it -p 8888:8000 test_app
+# docker run --privileged=True --device=/dev/video0:/dev/video0 -it -p 8000:8000 <IMAGE NAME>

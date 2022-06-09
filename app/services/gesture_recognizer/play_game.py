@@ -56,7 +56,7 @@ class RPSGame:
             return "Computer"
 
     def display_computer_move(self, computer_move_name, frame):
-        icon = cv2.imread("/media/cockatiel/ea7f0e24-9c25-4b22-8251-d3b1ca8a835f/RPS_app/app/services/gesture_recognizer/src/{}.png".format(computer_move_name), cv2.IMREAD_UNCHANGED)
+        icon = cv2.imread("./src/{}.png".format(computer_move_name), cv2.IMREAD_UNCHANGED)
         icon = cv2.resize(icon, (224, 224))
 
         # This is the portion which we are going to replace with the icon image

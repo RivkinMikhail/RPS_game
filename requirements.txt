@@ -16,8 +16,12 @@ uvloop==0.16.0
 watchgod==0.7
 websockets==10.1
 
-opencv-python~=4.5.5.62
-openvino==2021.3.0
-pybase64==1.2.1
-numpy==1.22.2
-pyrealsense2~=2.50.0.3812
+
+fastapi~=0.75.0
+pybase64~=1.2.1
+opencv-python~=4.5.3.56
+numpy~=1.19.5
+torchvision~=0.11.2+cu113
+torch~=1.10.1+cu113
+Pillow~=8.4.0
+uvicorn~=0.17.6

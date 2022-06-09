@@ -14,7 +14,7 @@ def extract_user_move(frame):
     model = torchvision.models.mobilenet_v3_small(pretrained=True)
     num_ftrs = model.classifier[3].in_features
     model.classifier[3] = nn.Linear(num_ftrs, 4)
-    model.load_state_dict(torch.load('/media/cockatiel/ea7f0e24-9c25-4b22-8251-d3b1ca8a835f/RPS_app/app/services/gesture_recognizer/src/rps_recognizer_.pth'))
+    model.load_state_dict(torch.load('./src/rps_recognizer_.pth'))
     model.eval()
     model.to(device)
     preprocess = transforms.Compose([
