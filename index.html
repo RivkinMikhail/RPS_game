@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Test</title>
+   </head>
+   <body>
+      <img id="src" width="1280px" height="720px" >
+     <script>
+      const URL = "ws://localhost:8000/";
+      let socket = new WebSocket(URL);
+      socket.onmessage = function (event) {
+         document.getElementById('src').setAttribute('src', event.data)
+      }
+     </script>
+   </body>
+</html>
