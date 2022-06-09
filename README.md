@@ -40,4 +40,4 @@ To run in a Docker, just build a docker image and run container using the comman
 
 
 ## Example result
-![Header](https://github.com/RivkinMikhail/RPS_game/blob/main/assets/test2.mp4)
+![Header]([https://github.com/RivkinMikhail/RPS_game/blob/main/assets/test2.mp4](https://github.com/RivkinMikhail/RPS_game/blob/main/assets/test1.gif))
