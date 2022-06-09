@@ -35,6 +35,7 @@ Weights of a model are inside `app/services/gesture_recognizer/src`
 To run in a Docker, just build a docker image and run container using the command inside the docker file. 
 
 `docker build -t <IMAGE NAME> .`
+
 `docker run --privileged=True --device=/dev/video0:/dev/video0 -it -p 8000:8000 <IMAGE NAME>`
 
 
