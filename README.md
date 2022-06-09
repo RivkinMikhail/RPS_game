@@ -7,9 +7,13 @@ However, this is a good example of collaborating several technologies in one app
 So, the RPS_game is a web app which uses machine learning, probability theory and back-end to study different approaches and to have fun.
 ## Requirements
 • Python 3.8
+
 • OpenCV 4.5.3.56
+
 • Torch 1.10.1+cu111
+
 • Torchvision 0.11.2
+
 
 ## Description 
 Basically, the game consists of three parts:
